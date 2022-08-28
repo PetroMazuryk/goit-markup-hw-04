@@ -341,7 +341,7 @@ body {
 .team-social-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .team-social-item {
@@ -390,19 +390,17 @@ body {
 .customers-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .customers-link {
+  width: 100%;
   height: 100%;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.customers-link {
-  fill: #757575;
+  fill: #AFB1B8;
 }
 
 .customers-link:hover,
@@ -541,7 +539,6 @@ body {
   border-radius: 4px;
   background: #f5f4fa;
 
-  /* min-width: 130px; і кнопки будуть однокової ширини */
   min-width: 130px;
   padding: 6px 22px;
 }

@@ -400,13 +400,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #AFB1B8;
+  color: #AFB1B8;
+}
+
+.customers-icon {
+ fill: currentColor;
 }
 
 .customers-link:hover,
 .customers-link:focus {
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* ----- Підвал ----- */
